@@ -68,6 +68,7 @@ body {
     padding: 17px;
     font-weight:800;
     font-size: 12px;
+    transition: all .4s ease;
 }
 
 .home .header .navbar .logo {
@@ -390,18 +391,21 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     height: 100vh;
-    margin: 50px auto;
-    width: 900px;
+    margin: 30px auto;
+    width: 90vw;
+    overflow: hidden;
 }
 
-.gallery .gallery-wrapper div{
-    width: 33%;
+.gallery .gallery-wrapper > div{
+    max-width: 280px;
+    height: auto;
     border: 10px solid var(--color-primary);
     margin: 6px;
 }
 
 .gallery .gallery-wrapper img {
-    width: 100%;
+   width: 100%;
+
 }
 
 

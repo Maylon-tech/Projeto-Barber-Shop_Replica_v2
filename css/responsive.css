@@ -1,0 +1,97 @@
+@import 'responsive.css';
+
+@media (max-width: 768px) {
+    .home .header .navbar .logo {
+        padding: 15px;    
+        width: 120px;
+    }
+    .home .header .navbar ul li {
+        padding: 15px;
+    }
+    .home .header .navbar ul li a {
+        font-size: 10px;
+    }
+    .home .banner {
+        margin-top: -35px;
+        margin-left: -355px;
+    }
+    .home .banner h1 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    .home .banner .slogan1 {
+        letter-spacing: 2px;
+    }
+
+    .about .timing {       
+        width: 20%;
+        padding: 15px;
+    }
+    .about .timing .overlay {    
+        text-align: center;
+        justify-content: end;
+        padding: 20px 10px;
+        margin: auto;
+    }
+    .about .timing .icon-cut {
+        width: 40px;
+        margin: 10px auto;
+    }
+    .about .timing h3 {
+        font-size: 20px;
+        margin: 0 auto 13px auto;
+    }
+    .about .timing .text h4 {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    .about .timing span {
+        font-size: 12px;
+    }
+    .about .timing .text:after {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .about .timing img {
+        width: 20px;
+        margin-bottom: 10px;
+    }
+
+    .about .experience {
+        width: 40%;
+        margin-left: 3%;
+        margin-top: 40px;
+        position: relative;
+    }
+    .about .experience span {
+        font-size: 16px;    
+        margin-bottom: 12px;
+    }
+    .about .experience h2 {
+        font-size: 36px;
+    }
+    .about .experience .text {
+        width: 100%;
+    }
+    .about .experience .text p {
+        font-size: 13px;
+        letter-spacing: 1.5px;    
+    }
+    .about .experience .text img {
+        position: absolute;
+        right: 50px;
+        bottom: -30px;
+        width: 180px;
+        height: auto;
+        transform: rotate(90deg);
+    }
+
+    
+}
+
+
+
+
+@media (max-width: 768px) {
+    
+}
