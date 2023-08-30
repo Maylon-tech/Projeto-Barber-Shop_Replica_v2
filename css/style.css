@@ -75,6 +75,24 @@ body {
     padding: 20px;    
 }
 
+.header .menu {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    display: none;
+}
+.header .menu i {
+    color: #fff;
+    font-size: 1.6rem;
+    margin: auto;
+    display: block;
+}
+
+
+
 /************
     Banner
 ************/
